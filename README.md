@@ -9,6 +9,6 @@ Button press cycles through 3 on-board LEDs via external interrupt.
 
 ### Key concepts
 - EXTI external interrupt
-- 200ms debounce filter via HAL_GetTick()
+- 50ms debounce filter via HAL_GetTick()
 - Volatile shared variables between main.c and stm32f4xx_it.c
 - Extern variable declarations across multiple source files
